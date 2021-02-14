@@ -41,7 +41,7 @@ h3 {
 }
 
 #about {
-
+    display: block;
 }
 
 .training {
@@ -49,18 +49,18 @@ h3 {
     justify-content: space-around;
     margin: auto;
     flex-direction: row;
-    float: right;
-}
-
-.training .img {
     height: auto;
     width: auto;
     margin: 20px;
     padding: 20px;
 }
 
+.training img {
+    float: right;
+}
+
 #bikesection {
-    display: flex;
+
 }
 
 .bikes {
@@ -83,7 +83,7 @@ h3 {
 }
 
 #teamsection {
-    display: flex;
+ 
 }
 
 .team {
@@ -102,6 +102,10 @@ h3 {
     padding: 20px;
     justify-content: space-around;
     align-items:center;
+}
+
+#contact {
+
 }
 
 hr {
